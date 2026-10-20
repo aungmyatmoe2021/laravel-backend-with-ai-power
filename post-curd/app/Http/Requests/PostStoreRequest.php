@@ -28,7 +28,7 @@ class PostStoreRequest extends FormRequest
         ];
     }
 
-    public function message(){
+    public function messages(){
         return [
             'title.required' => 'You need to fill title',
             'content.required' => 'You need to fill content',
