@@ -1,0 +1,23 @@
+info:
+  name: update-post-by-id
+  type: http
+  seq: 6
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/post/5
+  body:
+    type: json
+    data: |-
+      {
+        "title":"Laravel Blogs",
+        "content":"This is laravel video lesson"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
