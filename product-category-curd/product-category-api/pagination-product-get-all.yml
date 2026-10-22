@@ -1,0 +1,23 @@
+info:
+  name: pagination-product-get-all
+  type: http
+  seq: 14
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/products?per_page=5&page=5
+  params:
+    - name: per_page
+      value: "5"
+      type: query
+    - name: page
+      value: "5"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

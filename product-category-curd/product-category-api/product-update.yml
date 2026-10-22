@@ -1,0 +1,36 @@
+info:
+  name: product-update
+  type: http
+  seq: 9
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/products/108
+  body:
+    type: multipart-form
+    data:
+      - name: category_id
+        type: text
+        value: "1"
+      - name: name
+        type: text
+        value: Testing
+      - name: description
+        type: text
+        value: This is Testing
+      - name: price
+        type: text
+        value: "1499.0"
+      - name: image_url
+        type: file
+        value:
+          - /Users/yeekhinzaw/Downloads/iphone17.jpeg
+        contentType: image/jpeg
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
