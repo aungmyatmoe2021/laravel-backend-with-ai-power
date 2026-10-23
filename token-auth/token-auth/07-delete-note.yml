@@ -5,8 +5,10 @@ info:
 
 http:
   method: DELETE
-  url: http://127.0.0.1:8000/api/notes/2
-  auth: inherit
+  url: http://127.0.0.1:8000/api/notes/5
+  auth:
+    type: bearer
+    token: 12|O7REqZz1pNwyBI1M65Cq2kIRpPBG2pffLVBjSIta67ae1830
 
 settings:
   encodeUrl: true

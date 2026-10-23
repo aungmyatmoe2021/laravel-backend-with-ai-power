@@ -8,7 +8,7 @@ http:
   url: http://127.0.0.1:8000/api/logout
   auth:
     type: bearer
-    token: 4|KmlXMohmq5CfSUcgBOHEoY9YyDC0jQAEF0KnE2BNa909986e
+    token: 7|f279YZyUsJsoFPpbWse9tqbrUaoSEWGEYBpSOkid9715ebc7
 
 settings:
   encodeUrl: true

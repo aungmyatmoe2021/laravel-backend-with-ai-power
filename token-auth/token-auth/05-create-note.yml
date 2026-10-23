@@ -12,11 +12,11 @@ http:
       {
         "title":"This is mock",
         "description":"This is mocking",
-        "user_id":1
+        "user_id":2
       }
   auth:
     type: bearer
-    token: 8|GHnTbTZuSqY2lNklkWfFkQLg3zaQHzzLoV8eMgYB7d06fc07
+    token: 12|O7REqZz1pNwyBI1M65Cq2kIRpPBG2pffLVBjSIta67ae1830
 
 settings:
   encodeUrl: true

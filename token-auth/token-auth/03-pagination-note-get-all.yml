@@ -5,14 +5,17 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/notes?search=testingg
+  url: http://127.0.0.1:8000/api/notes?per_page=1&page=1
   params:
-    - name: search
-      value: testingg
+    - name: per_page
+      value: "1"
+      type: query
+    - name: page
+      value: "1"
       type: query
   auth:
     type: bearer
-    token: 9|RHV4MW42GireQ8BeqR5F1fzY6lc39GOFok9oJKnMbde12835
+    token: 12|O7REqZz1pNwyBI1M65Cq2kIRpPBG2pffLVBjSIta67ae1830
 
 settings:
   encodeUrl: true

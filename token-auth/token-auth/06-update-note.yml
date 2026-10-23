@@ -5,18 +5,18 @@ info:
 
 http:
   method: PUT
-  url: http://127.0.0.1:8000/api/notes/1
+  url: http://127.0.0.1:8000/api/notes/5
   body:
     type: json
     data: |-
       {
-        "title":"This is testinggggg",
-        "description":"This is testinggggg",
-        "user_id":1
+        "title":"This is mockinggggg",
+        "description":"This is mockingggg",
+        "user_id":2
       }
   auth:
     type: bearer
-    token: 9|RHV4MW42GireQ8BeqR5F1fzY6lc39GOFok9oJKnMbde12835
+    token: 12|O7REqZz1pNwyBI1M65Cq2kIRpPBG2pffLVBjSIta67ae1830
 
 settings:
   encodeUrl: true

@@ -5,10 +5,14 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/notes
+  url: http://127.0.0.1:8000/api/notes?search=mock
+  params:
+    - name: search
+      value: mock
+      type: query
   auth:
     type: bearer
-    token: 9|RHV4MW42GireQ8BeqR5F1fzY6lc39GOFok9oJKnMbde12835
+    token: 10|2GLftmi19C9vKuEJbRBGHrl1haCKkW8uDxmSPkze3f010fdc
 
 settings:
   encodeUrl: true

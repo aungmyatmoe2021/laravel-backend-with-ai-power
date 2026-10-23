@@ -8,7 +8,7 @@ http:
   url: http://127.0.0.1:8000/api/me
   auth:
     type: bearer
-    token: 4|KmlXMohmq5CfSUcgBOHEoY9YyDC0jQAEF0KnE2BNa909986e
+    token: 12|O7REqZz1pNwyBI1M65Cq2kIRpPBG2pffLVBjSIta67ae1830
 
 settings:
   encodeUrl: true
