@@ -1,0 +1,26 @@
+info:
+  name: 06-update-note
+  type: http
+  seq: 10
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/notes/1
+  body:
+    type: json
+    data: |-
+      {
+        "title":"This is testinggggg",
+        "description":"This is testinggggg",
+        "user_id":1
+      }
+  auth:
+    type: bearer
+    token: 9|RHV4MW42GireQ8BeqR5F1fzY6lc39GOFok9oJKnMbde12835
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

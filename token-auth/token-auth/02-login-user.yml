@@ -1,0 +1,23 @@
+info:
+  name: 02-login-user
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/login
+  body:
+    type: json
+    data: |-
+      {
+        "email":"aungmyatmoe2021@gmail.com",
+        "password":"password"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

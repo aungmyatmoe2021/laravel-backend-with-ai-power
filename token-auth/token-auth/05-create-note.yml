@@ -1,0 +1,26 @@
+info:
+  name: 05-create-note
+  type: http
+  seq: 8
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/notes
+  body:
+    type: json
+    data: |-
+      {
+        "title":"This is mock",
+        "description":"This is mocking",
+        "user_id":1
+      }
+  auth:
+    type: bearer
+    token: 8|GHnTbTZuSqY2lNklkWfFkQLg3zaQHzzLoV8eMgYB7d06fc07
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

@@ -1,0 +1,18 @@
+info:
+  name: 02-search-note-get-all
+  type: http
+  seq: 6
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/notes
+  auth:
+    type: bearer
+    token: 9|RHV4MW42GireQ8BeqR5F1fzY6lc39GOFok9oJKnMbde12835
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

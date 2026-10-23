@@ -1,0 +1,16 @@
+info:
+  name: 07-delete-note
+  type: http
+  seq: 11
+
+http:
+  method: DELETE
+  url: http://127.0.0.1:8000/api/notes/2
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
